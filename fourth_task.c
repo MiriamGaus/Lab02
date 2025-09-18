@@ -4,14 +4,14 @@
 int main()
 {
     // declare  variable, set its value to 1
+    int i = 1;
 
     // create a while loop that runs while the variable is less than or equal to 20
-    {
-
+    while (i < 20) {
         // increment the variable by 1
-
+        i++;
         // print the value of the variable
-
+        printf("%d\n", i);
     } //this is the end of the body of the while loop, it keeps looping back to the while statement, while the condition is true
 
     // you can put breakpoints on the closing curly brace of the while loop to see how it loops back to the while statement and checks the condition again
